@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="categories_animation_start">200</integer>
+    <integer name="categories_animation_end">501</integer>
+    <integer name="shimmer_animation_duration">800</integer>
+</resources>

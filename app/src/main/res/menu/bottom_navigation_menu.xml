@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/tab_inspire_dest"
+        android:icon="@drawable/selector_menu_inspire_icon"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/tab_categories_dest"
+        android:icon="@drawable/selector_menu_categories_icon"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/tab_cart_dest"
+        android:icon="@drawable/selector_menu_cart_icon"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/tab_account_dest"
+        android:icon="@drawable/selector_menu_account_icon"
+        tools:ignore="MenuTitle" />
+</menu>

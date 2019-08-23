@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/worksans_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        app:font="@font/worksans_regular"
+        tools:targetApi="o" />
+
+    <!-- bold -->
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font="@font/worksans_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700"
+        app:font="@font/worksans_bold"
+        tools:targetApi="o" />
+</font-family>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tab_inspire_dest">
+
+    <fragment
+        android:id="@+id/tab_inspire_dest"
+        android:name="com.boilerplate.android.base.feature.navigation.ColoredFragment"
+        tools:layout="@layout/fragment_colored">
+
+        <argument
+            android:name="tab_index"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+            android:id="@+id/tab_search_dest"
+            android:name="com.boilerplate.android.base.feature.navigation.ColoredFragment"
+            tools:layout="@layout/fragment_colored">
+
+        <argument
+                android:name="tab_index"
+                android:defaultValue="3"
+                app:argType="integer"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/tab_cart_dest"
+            android:name="com.boilerplate.android.base.feature.navigation.ColoredFragment"
+            tools:layout="@layout/fragment_colored">
+
+        <argument
+                android:name="tab_index"
+                android:defaultValue="3"
+                app:argType="integer"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/tab_account_dest"
+            android:name="com.boilerplate.android.base.feature.navigation.ColoredFragment"
+            tools:layout="@layout/fragment_colored">
+
+        <argument
+                android:name="tab_index"
+                android:defaultValue="3"
+                app:argType="integer" />
+    </fragment>
+
+
+</navigation>

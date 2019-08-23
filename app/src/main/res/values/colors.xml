@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/lightGrey</color>
+    <color name="colorAccent">@color/app_black</color>
+
+    <!-- General -->
+    <color name="app_black">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkGrey">#E5E5E5</color>
+    <color name="lightGrey">#F2F2F2</color>
+    <color name="ripple">#1A333333</color>
+    <color name="separator">#E4E4E4</color>
+
+    <!-- Main navigation - tab colors-->
+    <color name="background_bottom_navigation">#EBFFFFFF</color>
+    <color name="background_tab_inspire">#FF826E</color>
+    <color name="background_tab_categories">#99FBFF</color>
+    <color name="background_tab_cart">#FF96EA</color>
+    <color name="background_tab_account">#E5E5E5</color>
+    <color name="tab_text">#767676</color>
+</resources>
