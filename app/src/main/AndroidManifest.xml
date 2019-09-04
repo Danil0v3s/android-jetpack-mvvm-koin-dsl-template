@@ -17,8 +17,7 @@
         tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
 
         <activity
-            android:name="com.boilerplate.android.base.feature.launchscreen.LaunchScreenActivity"
-            android:theme="@style/SplashScreenTheme">
+            android:name="com.boilerplate.android.base.feature.launchscreen.LaunchScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

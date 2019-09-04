@@ -3,4 +3,5 @@
     <string name="home_hello_message">Hello %1$s, %2$s</string>
     <string name="empty_cart_message">Your shopping bag is empty</string>
     <string name="app_name">Boilerplate</string>
+    <string name="hello_world">Hello world!</string>
 </resources>
