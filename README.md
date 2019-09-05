@@ -7,7 +7,7 @@ Template repository for your awesome project about to start
 
 ### How to use this? ###
 
-Just click to `use this template` and you should be fine
+Just click to <img src="https://github.com/daniloleemes/android-jetpack-mvvm-koin-dsl-template/blob/master/.github/use%20this%20template.png" height="25"> and you should be fine
 
 ### What does it include? ###
 
