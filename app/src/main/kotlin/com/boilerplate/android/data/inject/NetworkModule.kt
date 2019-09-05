@@ -1,7 +1,7 @@
 package com.boilerplate.android.data.inject
 
-import com.boilerplate.android.data.network.category.CATEGORY_BASE_URL
-import com.boilerplate.android.data.network.category.CategoryApi
+import com.boilerplate.android.data.network.NetworkConstants
+import com.boilerplate.android.data.network.category.DummyApi
 import okhttp3.OkHttpClient
 import org.koin.dsl.module.module
 import retrofit2.Retrofit
@@ -12,7 +12,7 @@ val networkModule = module {
         provideDefaultOkHttpClient()
     }
     single { provideRetrofit(get()) }
-    single { provideCategoryService(get()) }
+    single { provideDummyService(get()) }
 }
 
 fun provideDefaultOkHttpClient(): OkHttpClient {
@@ -22,10 +22,10 @@ fun provideDefaultOkHttpClient(): OkHttpClient {
 fun provideRetrofit(client: OkHttpClient): Retrofit {
     return Retrofit.Builder()
         .client(client)
-        .baseUrl(CATEGORY_BASE_URL)
+        .baseUrl(NetworkConstants.BASE_URL)
         .addConverterFactory(MoshiConverterFactory.create())
         .build()
 }
 
-fun provideCategoryService(retrofit: Retrofit): CategoryApi =
-    retrofit.create(CategoryApi::class.java)
+fun provideDummyService(retrofit: Retrofit): DummyApi =
+    retrofit.create(DummyApi::class.java)

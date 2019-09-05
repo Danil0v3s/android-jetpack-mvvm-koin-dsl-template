@@ -21,6 +21,12 @@ interface BaseDao<T> {
     suspend fun save(vararg t: T)
 
     /**
+     * Insert or Update (Save) a list of entities, replacing in case of existence
+     */
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun save(t: List<T>)
+
+    /**
      * Insert one entity, aborting in case of existence
      */
     @Insert(onConflict = OnConflictStrategy.ABORT)

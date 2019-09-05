@@ -2,8 +2,8 @@ package com.boilerplate.android.base.feature.launchscreen
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Observer
 import com.boilerplate.android.R
 import com.boilerplate.android.base.feature.HomeActivity
 import org.koin.android.ext.android.inject
@@ -11,16 +11,13 @@ import org.koin.android.ext.android.inject
 class LaunchScreenActivity : AppCompatActivity() {
     private val viewModel: LaunchScreenViewModel by inject()
 
-    private val launchScreenDuration = 500L
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.launchscreen_activity)
-        viewModel.onViewLoaded()
 
-        Handler().postDelayed({
+        viewModel.fetchDummyData().observe(this, Observer { data ->
             openHomeView()
-        }, launchScreenDuration)
+        })
     }
 
     private fun openHomeView() {
