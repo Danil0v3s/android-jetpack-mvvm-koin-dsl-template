@@ -7,22 +7,17 @@ Template repository for your awesome project about to start
 
 ### How to use this? ###
 
-Just click <img src="https://github.com/daniloleemes/android-jetpack-mvvm-koin-dsl-template/blob/master/.github/use%20this%20template.png" height="25"> and you should be fine
+<a href="https://github.com/daniloleemes/android-jetpack-mvvm-koin-dsl-template/generate"><img src="https://github.com/daniloleemes/android-jetpack-mvvm-koin-dsl-template/blob/master/.github/use%20this%20template.png" height="25"></a>
 
 ### What does it include? ###
 
 It includes many libraries that make development easier and provides a nice folder/package structure, such as
 
-:books: MVVM
-
-:twisted_rightwards_arrows: Coroutines
-
-:rocket: Jetpack suite
-
-:globe_with_meridians: Navigation library
-
-:space_invader: Robolectric
-
-:coffee: Espresso
+* :books: MVVM
+* :twisted_rightwards_arrows: Coroutines
+* :rocket: Jetpack suite
+* :globe_with_meridians: Navigation library
+* :space_invader: Robolectric
+* :coffee: Espresso
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/dashboard?id=daniloleemes_android-jetpack-mvvm-koin-dsl-template)
