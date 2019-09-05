@@ -20,4 +20,4 @@ It includes many libraries that make development easier and provides a nice fold
 * :space_invader: Robolectric
 * :coffee: Espresso
 
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/dashboard?id=daniloleemes_android-jetpack-mvvm-koin-dsl-template)
+<a href="https://sonarcloud.io/dashboard?id=daniloleemes_android-jetpack-mvvm-koin-dsl-template"><img src="https://sonarcloud.io/images/project_badges/sonarcloud-black.svg" height=35/></a>
