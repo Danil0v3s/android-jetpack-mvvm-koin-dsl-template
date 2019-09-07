@@ -7,7 +7,7 @@ Template repository for your awesome project about to start
 
 ### How to use this? ###
 
-<a href="https://github.com/daniloleemes/android-jetpack-mvvm-koin-dsl-template/generate"><img src="https://github.com/daniloleemes/android-jetpack-mvvm-koin-dsl-template/blob/master/.github/use%20this%20template.png" height="25"></a>
+<a href="https://github.com/daniloleemes/android-jetpack-mvvm-koin-dsl-template/generate"><img src="https://github.com/daniloleemes/android-jetpack-mvvm-koin-dsl-template/blob/master/.github/use%20this%20template.png" height="35"></a>
 
 ### What does it include? ###
 
